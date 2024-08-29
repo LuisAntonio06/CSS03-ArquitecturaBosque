@@ -346,3 +346,81 @@ img{
     font-size: 2rem;
     padding: 2rem;
 }
+
+
+/*CONTACTO */
+
+.formulario-contacto{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor-formularios fieldset{
+    padding: 3rem;
+    width: 40rem;
+}
+
+.contenedor-formularios fieldset legend{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+
+
+.formularios-contacto{
+    display: flex;
+    flex-direction:  column;
+}
+
+
+.formularios-contacto input[type="text"],input[type="email"],input[type="tel"],select {
+    margin-bottom: 2rem ;
+    height: 4rem;
+}
+
+.contenedor-input-radio{
+    padding: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.contenedor-boton input[type="submit"] {
+    color: var(--gris);
+    background: var(--blanco);
+    padding: 2rem;
+    width: 20rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    transition-property:all ;
+    transition: 1.5s;
+    border: 1px solid black;
+}
+
+
+.contenedor-boton input[type="submit"]:hover {
+    cursor: pointer;    
+    background: var(--gris);
+    color: var(--blanco);
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
